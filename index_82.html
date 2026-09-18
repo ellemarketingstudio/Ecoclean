@@ -195,6 +195,8 @@
   .review p{color:var(--ink);font-style:italic}
   .review .who{margin-top:16px;font-weight:700;color:var(--green-dark);font-style:normal}
   .rating-badge{display:inline-flex;align-items:center;gap:10px;background:var(--mint);border-radius:999px;padding:9px 20px;font-weight:700;color:var(--green-dark);margin-top:14px}
+  .tnum{font-size:2.9rem;font-weight:800;color:var(--green);line-height:1}
+  .tlabel{margin:8px 0 10px;color:var(--green-dark);font-size:1.12rem}
 
   /* CTA band */
   .cta-band{background:linear-gradient(120deg,var(--green-light),var(--green-dark));color:#fff;border-radius:24px;padding:52px;text-align:center;box-shadow:var(--shadow)}
@@ -285,6 +287,7 @@
 .faq-item summary::after{content:'+';font-size:1.5rem;line-height:1;color:var(--green-light);font-weight:400;flex:none}
 .faq-item[open] summary::after{content:'\2013'}
 .faq-item .faq-a{padding:0 22px 18px;color:#4c5647;font-size:1rem;line-height:1.6}
+h1,h2,h3{text-wrap:balance}
 </style>
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -576,26 +579,28 @@
 <!-- ===== REVIEWS ===== -->
 <section id="reviews" class="center" style="background:var(--bg-soft)">
   <div class="wrap">
-    <span class="eyebrow">Client Reviews</span>
-    <h2>What Our Customers Say</h2>
-    <div class="rating-badge">⭐ 5.0 / 5.0 — Rated by our clients</div>
+    <span class="eyebrow">Nearly 15 Years Strong</span>
+    <h2>Why Kitchens Trust Ecco Clean</h2>
+    <p class="lead" style="max-width:700px;margin:14px auto 0;color:var(--slate)">For nearly 15 years, restaurants, hotels, schools, and healthcare kitchens across South Florida, Atlanta, and Chicago have counted on Ecco Clean to keep their facilities inspection-ready. Our reputation has been built one clean kitchen at a time.</p>
+    <div class="rating-badge">🏆 Nearly 15 Years of Trusted Service</div>
     <div class="grid reviews-grid">
-      <div class="review">
-        <div class="stars">★★★★★</div>
-        <p>"We have been loyal customers of Ecco Clean for several years now. Highly recommend their services &amp; products!"</p>
-        <div class="who">— Longtime Client</div>
+      <div class="review" style="text-align:center">
+        <div class="tnum">15</div>
+        <h3 class="tlabel">Years in Business</h3>
+        <p>Nearly a decade and a half keeping commercial kitchens clean, compliant, and inspection-ready.</p>
       </div>
-      <div class="review">
-        <div class="stars">★★★★★</div>
-        <p>"Great service and friendly staff. I recommend you all to avail the services from these guys."</p>
-        <div class="who">— Christine F.</div>
+      <div class="review" style="text-align:center">
+        <div class="tnum">3</div>
+        <h3 class="tlabel">Regions Served</h3>
+        <p>Trusted crews across South Florida, Atlanta, and Chicago — established in every market we serve.</p>
       </div>
-      <div class="review">
-        <div class="stars">★★★★★</div>
-        <p>"Amazing service!! Professional, thorough, and always on time. Exactly what our kitchen needed."</p>
-        <div class="who">— Verified Customer</div>
+      <div class="review" style="text-align:center">
+        <div class="tnum">100%</div>
+        <h3 class="tlabel">Satisfaction Guarantee</h3>
+        <p>If it&rsquo;s not right, we make it right. We stand behind every job we do.</p>
       </div>
     </div>
+    <p class="lead" style="max-width:640px;margin:34px auto 0;font-size:.95rem;color:var(--slate)">Much of our work comes from loyal, long-term clients and their referrals &mdash; the truest measure of trust. References available on request.</p>
   </div>
 </section>
 
